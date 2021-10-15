@@ -1,0 +1,148 @@
+/* These styles will be applied to screens that have a width of at least 768px */
+@media screen and (min-width: 768px) {
+    .hero {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        align-items: flex-start;
+    }
+
+    .btnSeeMore{
+        justify-content: center;
+    }
+
+    .imgContent {
+        padding: 4rem;
+    }
+
+    .imgContent img {
+        width: 100%;
+    }
+
+    .nav .topNav .topLinks{
+        visibility: visible;
+    }
+    .nav {
+        display: flex ;
+        flex-direction: row ;
+        align-items: baseline ;
+        justify-content: space-between ;
+        
+    }
+
+    .nav .topLinks, .topNav{
+        display: flex ;
+        flex-direction: row ;
+        align-items: center ;
+        justify-content: flex-end ;
+        width: 100%;
+    }
+
+    .nav .topLinks h2, a{
+        margin-left: 5rem;
+        font-size: 16px;
+
+    }
+    
+    .navMenu a{
+        background-color: white !important;
+        color: black !important;
+        font-size: 2rem !important;
+    }
+
+    .iconMenu{
+        visibility: hidden !important;
+    }
+
+    .unlessInfo .content {
+        display: flex ;
+        flex-direction: row ;
+        justify-content: space-around ;
+        align-items: baseline;
+        flex: 1;
+    }
+
+    .imgAboutMe img{
+        width: 25%;
+    }
+
+    .bitAbout{
+        background-color: #9C1ED8;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bitAbout .aboutMe, .imgAboutMe{
+        flex-direction: row;
+        
+    }
+
+   .bitAbout .icons{
+       
+       justify-items: flex-start !important;
+       align-items: flex-start !important;
+       justify-self: flex-start !important;
+       float:left;
+       
+   }
+
+    .bitAbout .content{
+        align-items: flex-start;
+    }
+
+    .bitAbout .imgAboutMe {
+        padding-bottom: 24rem;
+        padding-top: 24rem;
+        padding-left: 8rem;
+    }
+
+    .bitAbout .content .socialLinks h3{
+        padding-bottom: 8rem;
+    }
+
+
+    .imgAboutMe img {
+        width: 100%;
+    }
+    .mainSkills .content {
+        align-items: center;
+        display: flex;
+        
+    }
+
+    .mainSkills .imgSkills{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+
+    .mainSkills .c1, .c2, .c3{
+        align-items: center;
+        margin-left: 12rem;
+        margin-right: 12rem;
+        
+    }
+    
+    .lastSection .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .lastSection .content h1{
+        font-size: 3rem;
+    }
+
+    .lastSection .content h2{
+        font-size: 3.25rem !important;
+    }
+}
