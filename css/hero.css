@@ -1,0 +1,62 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2px 2px 2px;
+}
+
+
+.hero h4 {
+  font-size: 2.5rem;
+  padding-bottom: 4rem;
+  font-family: Poppins;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  padding-bottom: 4rem;
+  font-family: Poppins;
+}
+
+.hero p {
+  font-size: 2.5rem;
+  color: #B1B1B1;
+  padding-bottom: 4rem;
+  font-family: Manrope;
+}
+
+
+.btnSeeMore {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 4.5rem;
+  border-radius: 46px;
+  color: #FFF;
+  background-color: #9C1ED8;
+  font-size: medium;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 8rem;
+  text-align: center;
+}
+
+
+
+.imgContent {
+  flex: 1;
+}
+
+.imgContent img {
+  width: 100%;
+}
